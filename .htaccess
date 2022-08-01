@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^moviemaisbr\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.moviemaisbr\.com$
+RewriteRule ^/?$ "https\:\/\/www\.instagram\.com\/mansaomovie\/" [R=302,L]
+
